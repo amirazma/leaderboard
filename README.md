@@ -63,3 +63,9 @@ Run this command for unit tests:
 ```
 php artisan test
 ```
+
+Test file path:
+
+```
+https://github.com/amirazma/leaderboard/blob/master/laravel/tests/Feature/LeaderBoardTest.php
+```
