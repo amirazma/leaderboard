@@ -18,7 +18,7 @@ run this command:
 ```
 php artisan serve
 ```
-In new terminal tab, run migration command to create user table:
+In new terminal tab, run migration command to create users table:
 ```
 php artisan migrate
 ```
