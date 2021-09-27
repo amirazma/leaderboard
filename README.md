@@ -12,7 +12,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-In terminal, in folder path :   **leaderboard/laravel**
+In terminal, in folder path :   **/laravel**
 
 run this command:
 ```
