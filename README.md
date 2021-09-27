@@ -1,5 +1,6 @@
 ### Leaderboard API Application 
 
+PHP Framework: Laravel 8
 
 To run the project, create a database name "leaderboard" in MySQL, with the following information:
 ```
