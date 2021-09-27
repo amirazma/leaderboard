@@ -35,9 +35,12 @@ Example: http://127.0.0.1:8002/api/users/
  List a user information (name, age, points, address) based on given ID.
 - ---
 - **POST**  /api/users/register
-Register a user. The required fields are : name, age, points, address.
 
-All fileds are mandatory.
+Register a user. The required fields are : name, age, address.
+
+Points field is not required. It will be **0** by default when we register a new user.
+
+You cannot register 2 users with the same name (because we didn't have unique identifier like Email address, I decided to use 'name' as our unique identifier)
 - ----
 - **PUT**   /api/users/{id}/update_point/{action}
 
